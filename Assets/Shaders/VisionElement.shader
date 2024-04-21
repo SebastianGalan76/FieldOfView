@@ -1,4 +1,4 @@
-Shader "Test/2D/Sprite-Lit-Entity"
+Shader "Local/2D/VisionElement"
 {
     Properties
     {
@@ -101,7 +101,7 @@ Shader "Test/2D/Sprite-Lit-Entity"
                 return o;
             }
 
-            #include "Include/ShapeLightVisionEntity.hlsl"
+            #include "Include/ShapeLightVisionElement.hlsl"
 
             half4 CombinedShapeLightFragment(Varyings i) : SV_Target
             {

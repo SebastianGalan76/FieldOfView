@@ -9,7 +9,6 @@ namespace Player {
         private void Awake() {
             rb = GetComponent<Rigidbody2D>();
         }
-
         private void Update() {
             float moveHorizontal = Input.GetAxis("Horizontal");
             float moveVertical = Input.GetAxis("Vertical");
